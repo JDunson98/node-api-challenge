@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+Express is used to make creating an api a simple task by performing a lot of tasks under the hood, and it also has the power to route to other code within the api
+
 -   [ ] Describe Middleware?
+
+Middleware is an array of functions that get executed in the order that they are written in the code base. Essentially, middleware is written as: Do this code, if everything works, move on to the next function, if something goes wrong, then break the chain
 
 -   [ ] Describe a Resource?
 
+A resource is an object with a type, associated data, relationships to other resources, and then a set of methods that can operate on it
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+It can return statuses. Statuses, such as 200 or 404, let the user know whether or not the request was succesful. A status 200 means everything should have went through okay, whereas a status 404 means that the request was unsuccessful because nothing could be found.
+
 -   [ ] How can we partition our application into sub-applications?
+
+With express, you can route your application into other files to run when they are called, instead of everything being jumbled into one huge file
 
 ## Minimum Viable Product
 
